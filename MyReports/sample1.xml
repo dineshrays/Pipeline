@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" time="0"/>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.026948">
+<testcase classname="Simple Pipeline one" name="To verify Pipe1 Scenario" time="0.026948">
+<system-out><![CDATA[Given To print the username.................................................passed
+When click on Item..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

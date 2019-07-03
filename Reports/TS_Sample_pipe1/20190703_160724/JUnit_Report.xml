@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TS_Sample_pipe1" time="1" tests="1" failures="0" errors="0">
+    <testsuite name="TS_Sample_pipe1" tests="1" failures="0" errors="0" time="1" timestamp="2019-07-03 16:07:27" hostname="Group10 - G10PROLT020" id="Test Suites/TS_Sample_pipe1">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="G:\\Katalon Repository\\SamplePipe1\\SamplePipe1\\Reports\\TS_Sample_pipe1\\20190703_160724"/>
+            <property name="logFiles" value="G:\\Katalon Repository\\SamplePipe1\\SamplePipe1\\Reports\\TS_Sample_pipe1\\20190703_160724\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Group10 - G10PROLT020"/>
+            <property name="hostAddress" value="192.168.101.1"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+        </properties>
+        <testcase name="Test Cases/Sample1" classname="Test Cases/Sample1" status="PASSED">
+            <system-out>2019-07-03 16:07:27 - [TEST_CASE][PASSED] - Test Cases/Sample1: Test Cases/Sample1&#xD;
+&#xD;
+2019-07-03 16:07:28 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.runnerSample1): Run with 'common.runnerSample1' was passed&#xD;
+&#xD;
+2019-07-03 16:07:28 - [MESSAGE][PASSED] - Run with 'common.runnerSample1' was passed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-03 16:07:27 - [TEST_SUITE][INCOMPLETE] - TS_Sample_pipe1: null</system-out>
+        <system-err>2019-07-03 16:07:27 - [TEST_SUITE][INCOMPLETE] - TS_Sample_pipe1: null</system-err>
+    </testsuite>
+</testsuites>

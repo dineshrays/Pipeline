@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Sample_pipe1,,,,2019-07-03 16:07:27,2019-07-03 16:07:28,1.472s,INCOMPLETE
+,,,,,,,
+Test Cases/Sample1,,,,2019-07-03 16:07:27,2019-07-03 16:07:28,1.158s,PASSED
+runWithCucumberRunner(common.runnerSample1),,,,2019-07-03 16:07:28,2019-07-03 16:07:28,0.837s,PASSED
