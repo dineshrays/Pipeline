@@ -1,0 +1,21 @@
+node('Pipe2')
+{
+ pipe2Branch :{   
+  git credentialsId: '7d13ef5f-7039-40d7-9b5d-ad6b98e46ae7', url: 'https://github.com/dineshrays/Pipeline.git'  
+  bat label: '', script: '''F:
+  cd F:/Katalon_Studio_Windows_64-5.10.1
+  katalon -noSplash  -runMode=console -projectPath="F:\\Jenkins_Workspace\\workspace\\CheckingPipeline\\Pipe2.prj" -retry=0 -testSuitePath="Test Suites/TS_Pipe2" -executionProfile="default" -browserType="Chrome (headless)"
+  '''
+  cucumber failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', jsonReportDirectory: 'F:\\Jenkins_Workspace\\workspace\\CheckingPipeline\\MyReports', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
+  
+  mail(bcc: '',
+                     body: "Run ${JOB_NAME}-#${BUILD_NUMBER} succeeded. To get more details, visit the build results page: ${BUILD_URL}${ExtPath}.",
+                     cc: '',
+                     from: 'Promantus',
+                     replyTo: '',
+                     subject: "${JOB_NAME} ${BUILD_NUMBER} succeeded",
+                     to: "dinesh.rays@gmail.com")
+ }
+
+  
+}
